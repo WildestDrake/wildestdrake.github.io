@@ -2,7 +2,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 body{
     background: #c0c0c0;
     display: grid;
-    grid-template-columns: 180px 1fr;
+    grid-template-columns: 200px 1fr;
 }
 #touchSideSwipe{
     grid-column: 1/2;
@@ -29,7 +29,8 @@ body{
         background: hsl(2, 57%, 40%);
     }
 }
-.touch-side-swipe ul{display: block;overflow-y:overlay;margin: 0; padding: 0;line-height: 30px;margin-top:10px}
+.touch-side-swipe ul{display: block;overflow-y:visible;margin: 0; padding: 0;line-height: 30px;margin-top:10px;
+    position: fixed;}
 .touch-side-swipe a {color:#fff;margin-left: 10px}
 *{box-sizing: border-box}
 .touch-side-swipe h3 {margin-top: 10px;margin-left: 10px;color: #fff;}
