@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Scrum Explain</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="resources/css/touch-sideswipe.css" type="text/css">
+    <link rel="stylesheet" href="resources/css/style.css" type="text/css">
+
+</head>
+
+<body>
+<div id="touchSideSwipe" class="touch-side-swipe">
+    <ul>
+        <li><a href="#top">Top</a></li>
+        <li><a href="#whatis">What is Scrum?</a></li>
+        <li><a href="#agile">What is agile?</a></li>
+        <li><a href="#benefits">Benefits</a></li>
+        <li><a href="#howit">How does Scrum work?</a></li>
+        <li><a href="#">navbar</a></li>
+
+        <h3>Resources:</h3>
+        <li><a href="https://en.wikipedia.org/wiki/Scrum_(software_development)" target="_blank">Wikipedia</a></li>
+        <li><a href="https://www.scrum.org/" target="_blank">Scrum.org</a></li>
+        <li><a href="resources/file/2017-Scrum-Guide-US.pdf" download>Scrum Guide 2017</a></li>
+    </ul>
+</div>
+<div class="content">
+    <h1 id="top">SCRUM Information</h1>
+    <h2 id="whatis">What is Scrum?</h2>
+    <p>Scrum is an agile form of software development that involves spreading out each part of the software into small and quick tasks and then performing them in "sprints"</p>
+    <p>The main appeal to Scrum is how it enables the development cycles and teams to work closely together and be fully aware of everything that's being worked on, which further promotes close and tight-knit teamwork.</p>
+    <h2 id="agile">What is Agile Development?</h2>
+    <p>Agile development is the term used to differentiate it from the classic "waterfall" development which is a top-down development cycle that is known for causing delays due to how the project goes through its stages. It's been proven to be slower and lacking in versatility.</p>
+    <p>Agile Development is at it's core for quick processes individualized and compartmentalized for a faster and quicker development cycle, they are known for being fluid and open for daily iterations and updates to the project being worked on.</p>
+    <p class="img_descr">Waterfall development model example:</p>
+    <img src="resources/img/Waterfall_model.svg" alt="waterfall model" class="center-img" id="waterfall">
+    <h2 id="benefits">What are the benefits to using Scrum?</h2>
+    <ol>
+        <li>Overview!</li>
+        <ul class="li_descr">Scrum has meetings regularly where team members provide info on their process. As well as before every sprint.</ul>
+        <li>Commitment</li>
+        <ul class="li_descr">Due to everyone everyone being informed everyone is able to commit to each other and themselves the project with a clearer vision.</ul>
+        <li>Fast paced</li>
+        <ul class="li_descr">splitting all tasks into smaller compartments of work makes it so potentially the best one to do it, is able to do it.</ul>
+        <li>Light and small</li>
+        <ul class="li_descr">Scrum is made for smaller teams working closely, while it does scale, the core of it remains designed for smaller teams.</ul>
+    </ol>
+    <h2 id="howit">How does Scrum work exactly?</h2>
+    <img src="resources/img/scrum-agile-cycle.jpg" alt="Scrum Agile Cycle">
+    <p>Scrum, being agile works in the sense of </p>
+</div>
+<!---->
+
+<script src="resources/js/touch-sideswipe.js"></script>
+<script type="text/javascript">
+    var config = {
+        elementID: 'touchSideSwipe',
+        elementWidth: 400, //px
+        elementMaxWidth: 0.8, // *100%
+        sideHookWidth: 44, //px
+        moveSpeed: 0.2, //sec
+        opacityBackground: 0.8,
+        shiftForStart: 50, // px
+        windowMaxWidth: 1024, // px
+    }
+    var touchSideSwipe = new TouchSideSwipe(config);
+</script>
+
+</body>
+</html>
