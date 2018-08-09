@@ -16,10 +16,10 @@ body{
     max-width: 800px;
     margin: 70px auto auto auto;
     padding: 20px;
-    font-size: 20px;
+    font-size: 18px;
     color: #444;
     background: #eee;
-    line-height: 40px;
+    line-height: 30px;
 }
 @media(max-width:1023px){
     body{
@@ -31,14 +31,25 @@ body{
 }
 .touch-side-swipe ul{display: block;overflow-y:visible;margin: 0; padding: 0;line-height: 30px;margin-top:10px;
     position: fixed;}
-.touch-side-swipe a {color:#fff;margin-left: 10px}
+.touch-side-swipe a {color:#fff;margin-left: 10px;text-decoration: none;}
 *{box-sizing: border-box}
+.touch-side-swipe a:hover{text-decoration: underline;}
 .touch-side-swipe h3 {margin-top: 10px;margin-left: 10px;color: #fff;}
 
 .li_descr{margin-top: 0;
     padding-top: 0;
-    font-size: 18px;
+    font-size: 16px;
     font-style: italic;
+}
+
+.no-mar-pad-top{
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.no-mar-pad-low{
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .img_descr{
@@ -51,4 +62,9 @@ body{
 
 .center-img{
     width: 100%;
+}
+
+.right-img{
+    width: 250px;
+    float: right;
 }
